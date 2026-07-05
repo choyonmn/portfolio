@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>choyon — Full-Stack Engineer &amp; SaaS Builder</title>
+  <meta name="description" content="choyon — full-stack software engineer and SaaS builder from Bangladesh. Creator of ChatFleet: a multi-tenant support-inbox & order-management platform. Node, PostgreSQL, Next.js, React Native." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- animated background layers -->
+  <div class="bg-mesh" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#top" class="logo">choyon<span>.dev</span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-sm">Let's talk</a>
+    <button class="nav-burger" aria-label="Menu"><span></span><span></span></button>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <canvas id="hero3d" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <p class="eyebrow reveal">◆ Full-Stack Engineer · SaaS Builder</p>
+      <h1 class="hero-title reveal" data-delay="1">
+        Building <span class="grad">software</span> that<br />runs real businesses.
+      </h1>
+      <p class="hero-sub reveal" data-delay="2">
+        I'm <strong>choyon</strong> — a full-stack engineer from Bangladesh. I design and ship
+        end-to-end products: backends, dashboards, mobile apps, payments and the automation in between.
+      </p>
+      <div class="hero-cta reveal" data-delay="3">
+        <a href="#work" class="btn btn-primary">View my work <i class="arr">→</i></a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-stats reveal" data-delay="4">
+        <div><b data-count="1">0</b><span>SaaS platform built</span></div>
+        <div><b data-count="4">0</b><span>WordPress plugins</span></div>
+        <div><b data-count="3">0</b><span>Payment gateways</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll">Scroll<span></span></a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Node.js</span><span>·</span><span>PostgreSQL</span><span>·</span><span>Next.js</span><span>·</span><span>React Native</span><span>·</span><span>Meta CAPI</span><span>·</span><span>bKash</span><span>·</span><span>Docker</span><span>·</span><span>WooCommerce</span><span>·</span><span>Socket.io</span><span>·</span>
+      <span>Node.js</span><span>·</span><span>PostgreSQL</span><span>·</span><span>Next.js</span><span>·</span><span>React Native</span><span>·</span><span>Meta CAPI</span><span>·</span><span>bKash</span><span>·</span><span>Docker</span><span>·</span><span>WooCommerce</span><span>·</span><span>Socket.io</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-lead reveal">
+        I build <span class="grad">complete products</span>, not just features.
+      </p>
+      <div class="about-body reveal" data-delay="1">
+        <p>From a single idea to a live, paying platform — I own the whole stack: a Node/Express + PostgreSQL backend, a Next.js admin panel, a React Native mobile app, and the Docker/VPS deployment that ships it all.</p>
+        <p>My flagship is <strong>ChatFleet</strong> — a multi-tenant SaaS that unifies Facebook, Instagram and WhatsApp inboxes, automates order-to-courier dispatch, and feeds real delivery outcomes back to Meta Ads to cut ad cost. I love the hard, unglamorous parts: zero-loss order pipelines, timezone-accurate analytics, payment integrations and secure webhooks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <h2>What I work with</h2>
+    </div>
+    <div class="skill-grid">
+      <article class="skill-card tilt reveal">
+        <h3>Backend</h3>
+        <ul><li>Node.js · Express</li><li>PostgreSQL</li><li>Socket.io (real-time)</li><li>REST APIs · cron jobs</li></ul>
+      </article>
+      <article class="skill-card tilt reveal" data-delay="1">
+        <h3>Frontend</h3>
+        <ul><li>Next.js · React</li><li>Tailwind CSS</li><li>Recharts · dashboards</li><li>Responsive UX</li></ul>
+      </article>
+      <article class="skill-card tilt reveal" data-delay="2">
+        <h3>Mobile</h3>
+        <ul><li>React Native · Expo</li><li>Offline-first sync</li><li>APK build &amp; release</li><li>Push &amp; presence</li></ul>
+      </article>
+      <article class="skill-card tilt reveal" data-delay="3">
+        <h3>Integrations</h3>
+        <ul><li>Meta Conversions API</li><li>FB / IG / WA webhooks</li><li>WooCommerce / PHP</li><li>Courier APIs</li></ul>
+      </article>
+      <article class="skill-card tilt reveal" data-delay="4">
+        <h3>Payments</h3>
+        <ul><li>bKash Tokenized Checkout</li><li>Nagad PGW (RSA)</li><li>Rocket / COD</li><li>Idempotent flows</li></ul>
+      </article>
+      <article class="skill-card tilt reveal" data-delay="5">
+        <h3>DevOps</h3>
+        <ul><li>Docker · Compose</li><li>Linux VPS · Caddy</li><li>Zero-downtime deploys</li><li>Secrets &amp; security</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section work">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <h2>Selected work</h2>
+    </div>
+
+    <article class="project tilt reveal">
+      <div class="project-info">
+        <span class="tag">Flagship SaaS</span>
+        <h3>ChatFleet</h3>
+        <p>A multi-tenant support-inbox &amp; order-management platform for social-commerce. Unified FB/IG/WA inbox, one-click order-to-courier dispatch, real-time team analytics and a moderator mobile app — with a zero-loss order pipeline.</p>
+        <ul class="stack"><li>Node/Express</li><li>PostgreSQL</li><li>Next.js</li><li>React Native</li><li>Socket.io</li><li>Docker</li></ul>
+      </div>
+      <div class="project-visual"><span class="pv-mono">01</span></div>
+    </article>
+
+    <article class="project tilt reveal" data-delay="1">
+      <div class="project-info">
+        <span class="tag">Growth · Ads</span>
+        <h3>Meta Conversion Center</h3>
+        <p>A server-side Meta Conversions API engine: an 8-stage funnel from Lead to Purchase-on-delivery, hashed advanced matching, and a "FakeLead" exclusion-audience system that cuts fake traffic and lowers ad cost.</p>
+        <ul class="stack"><li>Meta CAPI</li><li>Graph API</li><li>Webhooks</li><li>HMAC</li></ul>
+      </div>
+      <div class="project-visual"><span class="pv-mono">02</span></div>
+    </article>
+
+    <article class="project tilt reveal" data-delay="2">
+      <div class="project-info">
+        <span class="tag">Payments</span>
+        <h3>BD Payment Gateways</h3>
+        <p>One WooCommerce plugin exposing bKash, Nagad and Rocket. bKash Tokenized Checkout with auto-confirm, and Nagad PGW with full RSA encrypt/sign/verify — production-grade and secure by design.</p>
+        <ul class="stack"><li>bKash</li><li>Nagad (RSA)</li><li>Rocket</li><li>WooCommerce</li></ul>
+      </div>
+      <div class="project-visual"><span class="pv-mono">03</span></div>
+    </article>
+
+    <article class="project tilt reveal" data-delay="3">
+      <div class="project-info">
+        <span class="tag">Plugins</span>
+        <h3>WooCommerce Plugin Suite</h3>
+        <p>Order sync to SaaS with live courier status, a WowAddons-style product-options engine that works with custom AJAX carts, and a storefront-boost pack (toast, free-delivery bar, sticky add-to-cart).</p>
+        <ul class="stack"><li>PHP</li><li>WooCommerce</li><li>HPOS</li><li>JS</li></ul>
+      </div>
+      <div class="project-visual"><span class="pv-mono">04</span></div>
+    </article>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="contact-card reveal">
+      <p class="eyebrow">◆ Open to work &amp; collaborations</p>
+      <h2>Let's build something<br /><span class="grad">that actually ships.</span></h2>
+      <div class="contact-actions">
+        <a href="tel:+8801300617650" class="btn btn-primary">Call · 01300617650</a>
+        <a href="mailto:hello@dev-choyon.com" class="btn btn-ghost">hello@dev-choyon.com</a>
+      </div>
+      <div class="contact-links">
+        <a href="https://chatfleet.shop" target="_blank" rel="noopener">chatfleet.shop</a>
+        <span>·</span>
+        <a href="#top">dev-choyon.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> choyon — dev-choyon.com</span>
+    <span>Designed &amp; built by choyon</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
